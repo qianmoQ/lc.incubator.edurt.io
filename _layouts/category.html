@@ -30,7 +30,7 @@ layout: default
         {% assign page_subcategory = site.data.subcategory_list[subcategory_name] %}
           {% if page_subcategory.parent-category == page.category %}
           <div class="column col-4 col-md-6 col-sm-12">
-            <a href="{{ site.baseurl }}/{{ subcategory_name }}">
+            <a href="{{ site.url }}/{{ subcategory_name }}">
               <div class="card card-link">
                 <div class="card-body text-center my-4">
                   <h5 class="text-bold">{{ page_subcategory.name }}</h5>

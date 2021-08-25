@@ -1,7 +1,7 @@
 title: Learning Center
 description: Learning Center!
 baseurl: ""
-url: http://lc.incubator.edurt.io
+url: 'http://lc.incubator.edurt.io'
 permalink: /:categories/:title
 
 content_type: Learning Center
