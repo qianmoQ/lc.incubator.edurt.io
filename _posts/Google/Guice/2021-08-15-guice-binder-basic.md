@@ -3,6 +3,7 @@ layout: post
 title: "Guice依赖注入(基础版)"
 date: 2021-08-15 21:20:37
 category: google-guice
+category-name: Google Guice
 author: qianmoQ
 short-description: "本教程主要详细讲解Guice的一些基本注入方式,通过该简单教程让我们可以快速使用Guice进行简单系统化开发,后续我们会更深入讲解更多模块,如果还不了解Guice大家可以先去网上自行了解一下."
 ---
