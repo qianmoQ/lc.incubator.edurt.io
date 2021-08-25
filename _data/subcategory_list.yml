@@ -1,0 +1,5 @@
+google-guice:
+  name: Google Guice
+  parent-category: google
+  parent-category-name: Google
+  description: Guice是Google出品的一个轻量级依赖注入框架!
