@@ -6,3 +6,7 @@ vendor
 Odin.ai
 .DS_Store
 Gemfile.lock
+*.iml
+modules.xml
+vcs.xml
+.idea
