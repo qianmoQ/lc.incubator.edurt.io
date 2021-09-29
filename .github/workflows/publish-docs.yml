@@ -14,5 +14,5 @@ jobs:
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CUSTOM_DOMAIN: lc.incubator.edurt.io
-          CONFIG_FILE: ./mkdocs.yml
+          CONFIG_FILE: docs/mkdocs.yml
           EXTRA_PACKAGES: build-base
