@@ -118,3 +118,4 @@ nav:
     - ReplicatedMergeTree分布式表: ClickHouse/2021-09-29-table-engine-replicatedmergetree.md
     - ClickHouse整合Kafka: ClickHouse/2021-09-29-table-engine-kafka.md
     - ClickHouse整合Kafka(读数据): ClickHouse/2021-09-29-table-engine-kafka-reader.md
+    - ClickHouse整合Kafka(写数据): ClickHouse/2021-09-29-table-engine-kafka-writer.md
