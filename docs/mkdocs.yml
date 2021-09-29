@@ -123,3 +123,5 @@ nav:
       - Spring DataJPA:
           - DataJPA Redis教程(基础版): Spring/DataJPA/2021-09-29-spring-datajpa-redis-basic.md
           - DataJPA Redis教程(Template版): Spring/DataJPA/2021-09-29-datajpa-redis-template.md
+          - DataJPA Redis教程(JPA实战版): Spring/DataJPA/2021-09-29-datajpa-redis-action.md
+          - DataJPA ElasticSearch教程(基础版): Spring/DataJPA/2021-09-29-datajpa-elasticsearch.md
