@@ -115,3 +115,4 @@ nav:
     - ClickHouse安装部署: ClickHouse/2021-08-25-get-started.md
     - ClickHouse集群配置: ClickHouse/2021-09-07-get-started-config.md
     - ClickHouse多集群配置: ClickHouse/2021-09-29-get-started-mulit-cluster.md
+    - ReplicatedMergeTree分布式表: ClickHouse/2021-09-29-table-engine-replicatedmergetree.md
