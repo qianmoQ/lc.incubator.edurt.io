@@ -1,28 +1,63 @@
 {#-
-  This file was automatically generated - do not edit
+This file was automatically generated - do not edit
 -#}
 {% extends "overrides/main.html" %}
 {% block tabs %}
-  {{ super() }}
-  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
-  <section class="mdx-container">
+{{ super() }}
+<style>.md-header {
+    position: initial
+}
+
+.md-main__inner {
+    margin: 0
+}
+
+.md-content {
+    display: none
+}
+
+@media screen and (min-width: 60em) {
+    .md-sidebar--secondary {
+        display: none
+    }
+}
+
+@media screen and (min-width: 76.25em) {
+    .md-sidebar--primary {
+        display: none
+    }
+}</style>
+<section class="mdx-container">
     <div class="md-grid md-typeset">
-      <div class="mdx-hero">
-        <div class="mdx-hero__image">
-          <img src="assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
+        <div class="mdx-hero">
+            <div class="mdx-hero__image">
+                <img src="assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
+            </div>
+            <div class="mdx-hero__content">
+                <h1>What is Learn Center?</h1>
+                <p class="lead">专注于技术分享的垂直站点, 涉及多种技术文章!</p>
+                <h4>Google</h4>
+                <ul class="md-tabs__list">
+                    <li class="md-tabs__item">✓ Guice</li>
+                </ul>
+
+                <h4>Bigdata</h4>
+                <ul class="md-tabs__list">
+                    <li class="md-tabs__item">✓ ClickHouse</li>
+                </ul>
+
+                <h4>Spring</h4>
+                <ul class="md-tabs__list">
+                    <li class="md-tabs__item">✓ DataJPA</li>
+                </ul>
+                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}"
+                   class="md-button md-button--primary">
+                    Quick start
+                </a>
+            </div>
         </div>
-        <div class="mdx-hero__content">
-          <h1>What is Learn Center?</h1>
-          <p class="lead">专注于技术分享的垂直站点, 涉及多种技术文章!</p>
-          <p>✓ Google Guice</p>
-          <p>✓ ClickHouse</p>
-          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
-            Quick start
-          </a>
-        </div>
-      </div>
     </div>
-  </section>
+</section>
 
 {% endblock %}
 {% block content %}{% endblock %}
