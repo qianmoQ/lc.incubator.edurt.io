@@ -12,7 +12,7 @@ jobs:
       - name: Deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CUSTOM_DOMAIN: dbm.incubator.edurt.io
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CUSTOM_DOMAIN: lc.incubator.edurt.io
           CONFIG_FILE: docs/mkdocs.yml
           EXTRA_PACKAGES: build-base
